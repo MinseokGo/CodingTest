@@ -1,3 +1,8 @@
+/* Date : 2022-01-19
+ * Program : Kakao test 2021-1-Problem3
+ * Email : rhalstjr1999@naver.com
+ * Author : MinseokGo
+ */
 class Problem3 {
     public int[] solution(String[] info, String[] query) {
         int[] answer = new int[query.length];
@@ -8,7 +13,7 @@ class Problem3 {
         for(int i=0; i<query.length; i++)
         {
             queryDivide1 = query[i].split(" and ");   
-            queryDivide2 = queryDivide1[3].split(" ");   //음식과 점수를 다시금 분리
+            queryDivide2 = queryDivide1[3].split(" ");   //food and score split
             for(int j=0; j<info.length; j++)
             {
                 infoDivide = info[j].split(" ");
